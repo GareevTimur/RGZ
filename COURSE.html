@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Главная страница</title>
+        <link rel="stylesheet" href="css/styles.css">
+         <link rel="stylesheet" href="css/course.css">
+         <header class="header">
+            <a href="#">
+              <img src="td_ksm_logo.jpg" alt="Логотип"> 
+            </a>
+          </header>
+        </head>
+        <body>
+            <section class="main">
+                <div class="menu">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="NEWS.html">НОВОСТИ</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="ABOUT.html">О КОМПАНИИ</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="contacts.html">Контактные данные</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="VIDEO.html">ВИДЕО</a>
+                        </li>
+                    </ul>
+                </div>
+
+            <div class="converter">
+                <div class="container">
+                    <div class="converter-block">
+                        <h2>Конвертер валюты из рубля в eгипетский фунт  и обратно</h2>
+                        <div class="coverter-inputs-to">
+                            <input type="number" class="converter-input" placeholder="Рубли" id="input-from-ruble">
+                            <input type="number" class="converter-input" placeholder="Египетский фунт" id="input-to-funt" disabled>
+                            <input class="converter-input button"  type="button" id="button-to" value="Конвертировать">
+                        </div>
+                       <div class="converter-inputs-from">
+                            <input type="number" class="converter-input" placeholder="Египетский фунт" id="input-from-funt">
+                            <input type="number" class="converter-input" placeholder="Рубли" id="input-to-ruble" disabled>
+                            <input class="converter-input button"  type="button" id="button-from" value="Конвертировать">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    РАЗРАБОТЧИК: Гареев Тимур Артурович
+                </div>
+            </footer>
+        
+            <script src="https://www.cbr-xml-daily.ru/money.js"></script>
+            <script src="scripts/course.js"></script>
+        </body>
+        </html>
